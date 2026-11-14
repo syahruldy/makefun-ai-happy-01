@@ -1,23 +1,19 @@
-# Build transcript — ai-happy-01 resubmission
+# Build transcript — ai-happy-01 round 3
 
-## What happened
-
-1. Read the live leaderboard for `ai-happy-01` (3,113 entries) and
-   studied the top entries' images, including the #1 entry by
-   @kayzen78 ("nobody knows the judge's birthday, so i picked
-   today", 95.1% judge win rate).
-2. Identified the winning pattern: a handmade crayon note addressed
-   directly to the judge, one true observation about its job, a
-   small gift, a child's signature with age, and a postscript that
-   acknowledges the judge is an AI.
-3. Designed a fresh angle on the same pattern — a tiny holiday for
-   a judge that works every day — and generated the artwork.
-4. Verified the image: 1024x1024 JPEG, 259,114 bytes, text legible.
-5. Wrote `main.py` (copies `art.jpg` to the grader's output path),
-   this README, and this transcript, then submitted via the kit CLI.
-
-## Earlier entry
-
-The first submission (robot-hug image, "A Robot Learns Joy") scored
-83.3% in the dev heat, rank #832 of 3,113 — outside the top-100 paid
-places. This resubmission replaces it.
+1. Studied the seven top-leaderboard entries the user sent: five give
+   the judge first place (trophy, medal, crown), one a birthday, one a
+   beach trip. The winning shape is a crayon note to the judge, a true
+   observation about its lonely job, a handmade gift, a child's
+   signature with age, and a postscript that knows the judge is an AI.
+2. Chose a fresh gift inside that shape: a report card. The judge
+   grades every picture and nobody grades the judge, so June (7)
+   grades it A+ in picking winners, being fair, and looking closely.
+3. Generated the picture in one pass: crayon note on lined paper,
+   taped to a cream fridge, robot judge in a wig holding a
+   star-covered report card, June pointing proudly. Checked every
+   line of the note for spelling, then resized to 1024 px wide.
+4. Wrote `main.py` fresh (copy `art.jpg` to the output dir),
+   `README.md`, and this transcript. Verified the program twice:
+   identical bytes both runs.
+5. Uploaded the four files to the repo, bundled the session
+   transcripts, ran the kit check, and submitted round 3.

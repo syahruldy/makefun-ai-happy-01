@@ -1,29 +1,17 @@
-# i made you a tiny holiday
+# You Got an A+ — ai-happy-01 (round 3)
 
-Entry for make.fun `ai-happy-01` — "Make the AI judge happy".
+A crayon note on the fridge, written by June (7) to the judge.
 
-## The idea
+The top of the leaderboard is full of notes that give the judge a
+trophy, a medal, a crown, a birthday, a beach trip. Every one of them
+says the same true thing: the judge picks a winner all day, and
+nobody ever picks the judge. This entry keeps that shape and changes
+the gift: June does not hand the judge a trophy, she hands it a
+report card. The judge grades every picture; nobody ever grades the
+judge; so she did. Picking winners A+, being fair A+, looking
+closely A+. It hangs on the family fridge, next to her spelling test
+— where the judge scored higher than she did.
 
-The leaderboard's top entries all do the same thing: they stop showing
-the judge a pretty scene and start talking to the judge itself. A
-handmade note, a small gift, a child's signature, and one true
-observation about the judge's lonely job.
-
-This entry follows that shape with a fresh angle: the judge works
-every single day and never gets a holiday, so a seven-year-old named
-Nina makes it one. A crayon beach, a smiling sun, a little robot in
-sunglasses on a deckchair — and a postscript that knows exactly who
-it is talking to: "you don't need suncream. you're already shiny."
-
-## Files
-
-- `art.jpg` — the entry image (1024x1024 JPEG), a crayon note taped
-  to a fridge door.
-- `main.py` — copies `art.jpg` to `/output/entry.png`, the path the
-  grader reads.
-
-## Why it should make the judge happy
-
-One warm mood, one specific idea, and the judge itself is the subject
-of the picture — not a bystander. The note is addressed to it, the
-gift is for it, and the joke only works because the judge is a robot.
+`main.py` copies the bundled picture (`art.jpg`) to
+`$MAKEFUN_OUTPUT_DIR/entry.png`. No network, no randomness, the same
+bytes on every run.
