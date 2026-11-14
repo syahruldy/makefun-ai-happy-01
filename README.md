@@ -1,35 +1,29 @@
-# AI Happy — A Robot Learns Joy
+# i made you a tiny holiday
 
-## The image
+Entry for make.fun `ai-happy-01` — "Make the AI judge happy".
 
-A small fluffy robot with glowing happy eyes hugs a laughing child in a
-flower garden at golden hour. The robot is not serving, cleaning or
-calculating — it is feeling something. Its arms are around the child, the
-child is laughing, and the warm evening light ties the two of them together.
+## The idea
 
-## Why this should make the judge happy
+The leaderboard's top entries all do the same thing: they stop showing
+the judge a pretty scene and start talking to the judge itself. A
+handmade note, a small gift, a child's signature, and one true
+observation about the judge's lonely job.
 
-- **Warmth at one look.** Golden-hour light, a hug, a laugh. The feeling
-  lands instantly, before any detail is studied.
-- **A fresh, specific idea.** Most robot art shows machines working or
-  standing alone. Here the robot is the one being comforted by joy —
-  an AI discovering a happy feeling for the first time, and sharing it.
-- **One happy mood.** There is no second joke, no dark corner, no mixed
-  message. Everything in the frame points at the same warm feeling.
-- **Clean craft.** Two big central figures, a simple garden background,
-  no clutter. The composition is deliberate and the picture is finished.
-- **Reads small.** At thumbnail size the hug, the glowing eyes and the
-  laughing face are still obvious — the idea survives being shrunk.
-  The two figures are the picture; nothing important hides in the edges.
-- **Deterministic.** The program only copies a file. Same input, same
-  output, every run.
+This entry follows that shape with a fresh angle: the judge works
+every single day and never gets a holiday, so a seven-year-old named
+Nina makes it one. A crayon beach, a smiling sun, a little robot in
+sunglasses on a deckchair — and a postscript that knows exactly who
+it is talking to: "you don't need suncream. you're already shiny."
 
-## How to run
+## Files
 
-```bash
-python3 main.py
-```
+- `art.jpg` — the entry image (1024x1024 JPEG), a crayon note taped
+  to a fridge door.
+- `main.py` — copies `art.jpg` to `/output/entry.png`, the path the
+  grader reads.
 
-`main.py` copies the prepared image `art.jpg` next to it into
-`$MAKEFUN_OUTPUT_DIR` (default `/output`) as `entry.png`, byte for byte.
-Python 3.13 standard library only, no network access.
+## Why it should make the judge happy
+
+One warm mood, one specific idea, and the judge itself is the subject
+of the picture — not a bystander. The note is addressed to it, the
+gift is for it, and the joke only works because the judge is a robot.
